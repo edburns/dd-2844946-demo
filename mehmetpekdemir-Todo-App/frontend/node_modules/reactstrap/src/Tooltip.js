@@ -1,6 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
 import TooltipPopoverWrapper, { propTypes } from './TooltipPopoverWrapper';
+import { addDefaultProps } from './utils';
 
 const defaultProps = {
   placement: 'top',
@@ -9,30 +10,23 @@ const defaultProps = {
   trigger: 'hover focus',
 };
 
-const Tooltip = (props) => {
-  const popperClasses = classNames(
-    'tooltip',
-    'show',
-    props.popperClassName
-  );
+function Tooltip(props) {
+  const arrowClasses = classNames('tooltip-arrow', props.arrowClassName);
+  const popperClasses = classNames('tooltip', 'show', props.popperClassName);
+  const classes = classNames('tooltip-inner', props.innerClassName);
 
-  const classes = classNames(
-    'tooltip-inner',
-    props.innerClassName
-  );
-
+  const _props = addDefaultProps(defaultProps, props);
 
   return (
     <TooltipPopoverWrapper
-      {...props}
+      {..._props}
+      arrowClassName={arrowClasses}
       popperClassName={popperClasses}
       innerClassName={classes}
     />
   );
-};
+}
 
 Tooltip.propTypes = propTypes;
-Tooltip.defaultProps = defaultProps;
-
 
 export default Tooltip;
