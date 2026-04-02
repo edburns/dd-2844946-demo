@@ -1,0 +1,11 @@
+:compileJava
+:processResources
+:classes
+:bootJar
+:jar SKIPPED
+:assemble
+:check
+:build
+
+BUILD SUCCESSFUL in 12s
+3 actionable tasks: 3 executed

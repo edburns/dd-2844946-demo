@@ -1,0 +1,41 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.5)
+
+2026-04-02 17:36:57.679  INFO 2276 --- [           main] n.unibave.todolist.TodolistApplication   : Starting TodolistApplication v0.0.1-SNAPSHOT using Java 17.0.18 on Edwards-MacBook-Pro.local with PID 2276 (/Users/edburns/workareas/dd-2844946-demo/wesleyfuchter-todolist-spring-react/repo/backend/target/todolist-0.0.1-SNAPSHOT.jar started by edburns in /Users/edburns/workareas/dd-2844946-demo/wesleyfuchter-todolist-spring-react/repo/backend)
+2026-04-02 17:36:57.680  INFO 2276 --- [           main] n.unibave.todolist.TodolistApplication   : No active profile set, falling back to default profiles: default
+2026-04-02 17:36:58.055  INFO 2276 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-02 17:36:58.087  INFO 2276 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interfaces.
+2026-04-02 17:36:58.418  INFO 2276 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2026-04-02 17:36:58.424  INFO 2276 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-02 17:36:58.425  INFO 2276 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2026-04-02 17:36:58.458  INFO 2276 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-02 17:36:58.458  INFO 2276 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 751 ms
+2026-04-02 17:36:58.539  INFO 2276 --- [           main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 7.7.3 by Redgate
+2026-04-02 17:36:58.544  INFO 2276 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-02 17:36:58.621  INFO 2276 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-02 17:36:58.650  INFO 2276 --- [           main] o.f.c.i.database.base.DatabaseType       : Database: jdbc:postgresql://localhost:5432/todolist (PostgreSQL 14.17)
+2026-04-02 17:36:58.655  WARN 2276 --- [           main] o.f.c.internal.database.base.Database    : Flyway upgrade recommended: org.flywaydb.core.internal.database.postgresql.PostgreSQLDatabaseType@3b2c0e88 14.17 is newer than this version of Flyway and support has not been tested. The latest supported version of org.flywaydb.core.internal.database.postgresql.PostgreSQLDatabaseType@3b2c0e88 is 13.
+2026-04-02 17:36:58.684  INFO 2276 --- [           main] o.f.core.internal.command.DbValidate     : Successfully validated 2 migrations (execution time 00:00.018s)
+2026-04-02 17:36:58.689  INFO 2276 --- [           main] o.f.core.internal.command.DbMigrate      : Current version of schema "public": 2
+2026-04-02 17:36:58.690  INFO 2276 --- [           main] o.f.core.internal.command.DbMigrate      : Schema "public" is up to date. No migration necessary.
+2026-04-02 17:36:58.749  INFO 2276 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-02 17:36:58.775  INFO 2276 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2026-04-02 17:36:58.839  INFO 2276 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2026-04-02 17:36:58.907  INFO 2276 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2026-04-02 17:36:59.227  INFO 2276 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-04-02 17:36:59.231  INFO 2276 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-02 17:36:59.418  WARN 2276 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-02 17:36:59.609  INFO 2276 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2026-04-02 17:36:59.615  INFO 2276 --- [           main] n.unibave.todolist.TodolistApplication   : Started TodolistApplication in 2.168 seconds (JVM running for 2.461)
+2026-04-02 17:37:21.002  INFO 2276 --- [nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-02 17:37:21.002  INFO 2276 --- [nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-04-02 17:37:21.003  INFO 2276 --- [nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-04-02 17:38:57.052  INFO 2276 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-02 17:38:57.054  INFO 2276 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-02 17:38:57.055  INFO 2276 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

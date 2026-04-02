@@ -1,0 +1,36 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.4)
+
+2026-04-02T17:09:20.762-04:00  INFO 80059 --- [           main] n.j.s.SpringbootBackendApplication       : Starting SpringbootBackendApplication v0.0.1-SNAPSHOT using Java 17.0.18 with PID 80059 (/Users/edburns/workareas/dd-2844946-demo/RameshMF-ReactJS-Spring-Boot-CRUD-Full-Stack-App/repo/springboot-backend/target/springboot-backend-0.0.1-SNAPSHOT.jar started by edburns in /Users/edburns/workareas/dd-2844946-demo/RameshMF-ReactJS-Spring-Boot-CRUD-Full-Stack-App/repo/springboot-backend)
+2026-04-02T17:09:20.764-04:00  INFO 80059 --- [           main] n.j.s.SpringbootBackendApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-04-02T17:09:21.143-04:00  INFO 80059 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-02T17:09:21.179-04:00  INFO 80059 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interfaces.
+2026-04-02T17:09:21.514-04:00  INFO 80059 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+2026-04-02T17:09:21.521-04:00  INFO 80059 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-02T17:09:21.522-04:00  INFO 80059 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2026-04-02T17:09:21.572-04:00  INFO 80059 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-02T17:09:21.573-04:00  INFO 80059 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 777 ms
+2026-04-02T17:09:21.595-04:00  INFO 80059 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-02T17:09:21.757-04:00  INFO 80059 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:employee_management_system user=SA
+2026-04-02T17:09:21.759-04:00  INFO 80059 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-02T17:09:21.766-04:00  INFO 80059 --- [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:employee_management_system'
+2026-04-02T17:09:21.838-04:00  INFO 80059 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-02T17:09:21.868-04:00  INFO 80059 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2026-04-02T17:09:22.034-04:00  INFO 80059 --- [           main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2026-04-02T17:09:22.408-04:00  INFO 80059 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-04-02T17:09:22.412-04:00  INFO 80059 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-02T17:09:22.554-04:00  WARN 80059 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-02T17:09:22.766-04:00  INFO 80059 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path ''
+2026-04-02T17:09:22.778-04:00  INFO 80059 --- [           main] n.j.s.SpringbootBackendApplication       : Started SpringbootBackendApplication in 2.251 seconds (process running for 2.533)
+2026-04-02T17:09:26.306-04:00  INFO 80059 --- [nio-8084-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-02T17:09:26.306-04:00  INFO 80059 --- [nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-04-02T17:09:26.307-04:00  INFO 80059 --- [nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-04-02T17:36:34.937-04:00  INFO 80059 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-02T17:36:34.939-04:00  INFO 80059 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-02T17:36:34.943-04:00  INFO 80059 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

@@ -1,0 +1,59 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< com.mehmetpekdemir:todo-app >---------------------
+[INFO] Building todo-app 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ todo-app ---
+[INFO] Deleting /Users/edburns/workareas/dd-2844946-demo/mehmetpekdemir-Todo-App/backend/target
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ todo-app ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ todo-app ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 46 source files to /Users/edburns/workareas/dd-2844946-demo/mehmetpekdemir-Todo-App/backend/target/classes
+[INFO] 
+[INFO] --- spring-cloud-contract:2.2.4.RELEASE:generateTests (default-generateTests) @ todo-app ---
+[INFO] Skipping Spring Cloud Contract Verifier execution: skipTeststrue
+[INFO] 
+[INFO] --- spring-cloud-contract:2.2.4.RELEASE:convert (default-convert) @ todo-app ---
+[INFO] Will use contracts provided in the folder [/Users/edburns/workareas/dd-2844946-demo/mehmetpekdemir-Todo-App/backend/src/test/resources/contracts]
+[INFO] Copying Spring Cloud Contract Verifier contracts to [/Users/edburns/workareas/dd-2844946-demo/mehmetpekdemir-Todo-App/backend/target/stubs/META-INF/com.mehmetpekdemir/todo-app/0.0.1-SNAPSHOT/contracts]. Only files matching [.*] pattern will end up in the final JAR with stubs.
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Converting from Spring Cloud Contract Verifier contracts to WireMock stubs mappings
+[INFO]      Spring Cloud Contract Verifier contracts directory: /Users/edburns/workareas/dd-2844946-demo/mehmetpekdemir-Todo-App/backend/src/test/resources/contracts
+[INFO] Stub Server stubs mappings directory: /Users/edburns/workareas/dd-2844946-demo/mehmetpekdemir-Todo-App/backend/target/stubs/META-INF/com.mehmetpekdemir/todo-app/0.0.1-SNAPSHOT/mappings
+[INFO] Creating new stub [/Users/edburns/workareas/dd-2844946-demo/mehmetpekdemir-Todo-App/backend/target/stubs/META-INF/com.mehmetpekdemir/todo-app/0.0.1-SNAPSHOT/mappings/test get todo by id.json]
+[INFO] Creating new stub [/Users/edburns/workareas/dd-2844946-demo/mehmetpekdemir-Todo-App/backend/target/stubs/META-INF/com.mehmetpekdemir/todo-app/0.0.1-SNAPSHOT/mappings/test get todos by username.json]
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ todo-app ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ todo-app ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 6 source files to /Users/edburns/workareas/dd-2844946-demo/mehmetpekdemir-Todo-App/backend/target/test-classes
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ todo-app ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- spring-cloud-contract:2.2.4.RELEASE:generateStubs (default-generateStubs) @ todo-app ---
+[INFO] Files matching this pattern will be excluded from stubs generation []
+[INFO] Building jar: /Users/edburns/workareas/dd-2844946-demo/mehmetpekdemir-Todo-App/backend/target/todo-app-0.0.1-SNAPSHOT-stubs.jar
+[INFO] 
+[INFO] --- jar:3.1.1:jar (default-jar) @ todo-app ---
+[INFO] Building jar: /Users/edburns/workareas/dd-2844946-demo/mehmetpekdemir-Todo-App/backend/target/todo-app-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot:2.2.6.RELEASE:repackage (repackage) @ todo-app ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.640 s
+[INFO] Finished at: 2026-04-02T17:03:01-04:00
+[INFO] ------------------------------------------------------------------------

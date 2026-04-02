@@ -1,0 +1,43 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< net.unibave:todolist >------------------------
+[INFO] Building todolist 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ todolist ---
+[INFO] Deleting /Users/edburns/workareas/dd-2844946-demo/wesleyfuchter-todolist-spring-react/repo/backend/target
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ todolist ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ todolist ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to /Users/edburns/workareas/dd-2844946-demo/wesleyfuchter-todolist-spring-react/repo/backend/target/classes
+[INFO] 
+[INFO] --- resources:3.2.0:testResources (default-testResources) @ todolist ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /Users/edburns/workareas/dd-2844946-demo/wesleyfuchter-todolist-spring-react/repo/backend/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ todolist ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /Users/edburns/workareas/dd-2844946-demo/wesleyfuchter-todolist-spring-react/repo/backend/target/test-classes
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ todolist ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.2.0:jar (default-jar) @ todolist ---
+[INFO] Building jar: /Users/edburns/workareas/dd-2844946-demo/wesleyfuchter-todolist-spring-react/repo/backend/target/todolist-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot:2.5.5:repackage (repackage) @ todolist ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.987 s
+[INFO] Finished at: 2026-04-02T17:08:28-04:00
+[INFO] ------------------------------------------------------------------------

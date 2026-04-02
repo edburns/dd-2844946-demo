@@ -1,0 +1,113 @@
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:bootRun
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.0.0.RELEASE)
+
+2026-04-02 17:09:21.981  INFO 80062 --- [           main] com.djamware.react.ReactApplication      : Starting ReactApplication on Edwards-MacBook-Pro.local with PID 80062 (/Users/edburns/workareas/dd-2844946-demo/didinj-spring-boot-mongodb-react-java-crud/build/classes/java/main started by edburns in /Users/edburns/workareas/dd-2844946-demo/didinj-spring-boot-mongodb-react-java-crud)
+2026-04-02 17:09:21.988  INFO 80062 --- [           main] com.djamware.react.ReactApplication      : No active profile set, falling back to default profiles: default
+2026-04-02 17:09:22.110  INFO 80062 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4206a205: startup date [Thu Apr 02 17:09:22 EDT 2026]; root of context hierarchy
+2026-04-02 17:09:24.647  INFO 80062 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+2026-04-02 17:09:24.695  INFO 80062 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-02 17:09:24.696  INFO 80062 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.28
+2026-04-02 17:09:24.711  INFO 80062 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/edburns/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2026-04-02 17:09:24.866  INFO 80062 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-02 17:09:24.867  INFO 80062 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2765 ms
+2026-04-02 17:09:25.162  INFO 80062 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2026-04-02 17:09:25.169  INFO 80062 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2026-04-02 17:09:25.169  INFO 80062 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2026-04-02 17:09:25.170  INFO 80062 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2026-04-02 17:09:25.170  INFO 80062 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2026-04-02 17:09:25.734  INFO 80062 --- [           main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27020], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2026-04-02 17:09:25.736  INFO 80062 --- [           main] org.mongodb.driver.cluster               : Adding discovered server localhost:27020 to client view of cluster
+2026-04-02 17:09:25.870  INFO 80062 --- [localhost:27020] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1}] to localhost:27020
+2026-04-02 17:09:25.887  INFO 80062 --- [localhost:27020] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27020, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[7, 0, 31]}, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=10210125}
+2026-04-02 17:09:25.889  INFO 80062 --- [localhost:27020] org.mongodb.driver.cluster               : Discovered cluster type of STANDALONE
+2026-04-02 17:09:26.972  INFO 80062 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4206a205: startup date [Thu Apr 02 17:09:22 EDT 2026]; root of context hierarchy
+2026-04-02 17:09:27.127  INFO 80062 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/contacts],methods=[GET]}" onto public java.lang.Iterable<com.djamware.react.models.Contact> com.djamware.react.controllers.ContactController.contact()
+2026-04-02 17:09:27.128  INFO 80062 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/contacts/{id}],methods=[GET]}" onto public java.util.Optional<com.djamware.react.models.Contact> com.djamware.react.controllers.ContactController.show(java.lang.String)
+2026-04-02 17:09:27.129  INFO 80062 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/contacts/{id}],methods=[PUT]}" onto public com.djamware.react.models.Contact com.djamware.react.controllers.ContactController.update(java.lang.String,com.djamware.react.models.Contact)
+2026-04-02 17:09:27.130  INFO 80062 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/contacts/{id}],methods=[DELETE]}" onto public java.lang.String com.djamware.react.controllers.ContactController.delete(java.lang.String)
+2026-04-02 17:09:27.130  INFO 80062 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/contacts],methods=[POST]}" onto public com.djamware.react.models.Contact com.djamware.react.controllers.ContactController.save(com.djamware.react.models.Contact)
+2026-04-02 17:09:27.142  INFO 80062 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2026-04-02 17:09:27.143  INFO 80062 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2026-04-02 17:09:27.194  INFO 80062 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2026-04-02 17:09:27.195  INFO 80062 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2026-04-02 17:09:27.272  INFO 80062 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2026-04-02 17:09:27.315  INFO 80062 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2026-04-02 17:09:27.535  INFO 80062 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2026-04-02 17:09:27.566 ERROR 80062 --- [           main] o.apache.catalina.core.StandardService   : Failed to start connector [Connector[HTTP/1.1-8085]]
+
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8085]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167) ~[tomcat-embed-core-8.5.28.jar:8.5.28]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) ~[tomcat-embed-core-8.5.28.jar:8.5.28]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:255) [spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197) [spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:300) [spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162) [spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552) [spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) [spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) [spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388) [spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327) [spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246) [spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1234) [spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at com.djamware.react.ReactApplication.main(ReactApplication.java:10) [main/:na]
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1021) ~[tomcat-embed-core-8.5.28.jar:8.5.28]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) ~[tomcat-embed-core-8.5.28.jar:8.5.28]
+	... 13 common frames omitted
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_462]
+	at sun.nio.ch.Net.bind(Net.java:461) ~[na:1.8.0_462]
+	at sun.nio.ch.Net.bind(Net.java:453) ~[na:1.8.0_462]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:222) ~[na:1.8.0_462]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:85) ~[na:1.8.0_462]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-8.5.28.jar:8.5.28]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1150) ~[tomcat-embed-core-8.5.28.jar:8.5.28]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:591) ~[tomcat-embed-core-8.5.28.jar:8.5.28]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1018) ~[tomcat-embed-core-8.5.28.jar:8.5.28]
+	... 14 common frames omitted
+
+2026-04-02 17:09:27.575  INFO 80062 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-04-02 17:09:27.594  INFO 80062 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2026-04-02 17:09:27.605 ERROR 80062 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8085 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8085, or configure this application to listen on another port.
+
+2026-04-02 17:09:27.607  INFO 80062 --- [           main] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4206a205: startup date [Thu Apr 02 17:09:22 EDT 2026]; root of context hierarchy
+2026-04-02 17:09:27.613  INFO 80062 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+:bootRun FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':bootRun'.
+> Process 'command '/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin/java'' finished with non-zero exit value 1
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 14s
+3 actionable tasks: 1 executed, 2 up-to-date
