@@ -85,9 +85,10 @@ done
 
 # ── 3. Frontend ──────────────────────────────────────────────────────────────
 
-echo "==> Installing frontend dependencies..."
+echo "==> Installing frontend dependencies (clean install)..."
 cd "$SCRIPT_DIR/frontend"
-npm install --prefer-offline 2>&1 | tail -5
+rm -rf node_modules
+npm install
 
 echo "==> Starting frontend on :3004..."
 PORT=3004 NODE_OPTIONS=--openssl-legacy-provider npm start > frontend-run.log 2>&1 &
