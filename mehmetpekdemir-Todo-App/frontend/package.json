@@ -9,7 +9,7 @@
     "@testing-library/user-event": "^14.6.1",
     "alertifyjs": "^1.14.0",
     "axios": "^1.14.0",
-    "bootstrap": "^4.6.0",
+    "bootstrap": "^5.3.8",
     "jwt-decode": "^3.1.2",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
