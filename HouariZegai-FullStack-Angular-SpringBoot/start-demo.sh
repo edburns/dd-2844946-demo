@@ -62,7 +62,7 @@ fi
 
 # --- start frontend ---
 echo "🚀  Starting frontend on port $FRONTEND_PORT..."
-(cd "$SCRIPT_DIR/crm-frontend" && npx ng serve --port $FRONTEND_PORT --no-progress) > "$SCRIPT_DIR/crm-frontend/frontend.log" 2>&1 &
+(cd "$SCRIPT_DIR/crm-frontend" && npx ng serve --port $FRONTEND_PORT) > "$SCRIPT_DIR/crm-frontend/frontend.log" 2>&1 &
 FRONTEND_PID=$!
 
 # wait for frontend to be ready

@@ -157,4 +157,35 @@ Excellent! Now I have a thorough picture. Let me compile the best candidates:
 
   ✅ Java 8 for dramatic backend upgrade. TypeScript frontend adds variety. ⚠️
   Gradle + MongoDB.
-  
+
+  ---------------------------------------------------------------------------
+
+  6. HouariZegai/FullStack-Angular-SpringBoot — Angular 8 + Java 8 (non-React!)
+
+  ┌───────────┬─────────────────────────┬────────────────────────────────────┐
+  │           │ Backend                 │ Frontend                           │
+  ├───────────┼─────────────────────────┼────────────────────────────────────┤
+  │ Java      │ 8 → upgrade to 21       │ —                                  │
+  ├───────────┼─────────────────────────┼────────────────────────────────────┤
+  │ Spring    │ 2.1.7.RELEASE → 3.x     │ —                                  │
+  │ Boot      │                         │                                    │
+  ├───────────┼─────────────────────────┼────────────────────────────────────┤
+  │ Angular   │ —                       │ 8.2, TypeScript 3.5                │
+  ├───────────┼─────────────────────────┼────────────────────────────────────┤
+  │ Other     │ JWT, Spring Security,   │ ngx-bootstrap 5.1,                 │
+  │           │ H2 in-memory DB         │ ngx-toastr 10.2                    │
+  ├───────────┼─────────────────────────┼────────────────────────────────────┤
+  │ Build     │ Maven                   │ Angular CLI 8.3                    │
+  ├───────────┼─────────────────────────┼────────────────────────────────────┤
+  │ DB        │ H2 (in-memory, no       │ —                                  │
+  │           │ external DB needed)     │                                    │
+  └───────────┴─────────────────────────┴────────────────────────────────────┘
+
+  ✅ Non-React frontend — important because App Modernization React upgrades
+  may not be ready for JDConf. Angular 8 → 17+ gives a dramatic frontend
+  upgrade story. Java 8 + Spring Boot 2.1 → 3.x gives a strong backend
+  story too. H2 in-memory DB means no Docker/external DB setup. Maven-based.
+  CRM app with JWT auth and 3 seeded customers. Credentials: houarizegai /
+  0000. ⚠️ Required fixes to run: ngx-bootstrap import path, fsevents
+  removal (Node 22), and @angular/core version alignment.
+
