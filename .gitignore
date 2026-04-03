@@ -12,8 +12,9 @@ build/
 node_modules/
 npm-debug.log*
 
-# Build logs from Maven runs
+# Build and runtime logs
 *-job-logs.txt
+*-run.log
 
 # IDE
 .idea/
