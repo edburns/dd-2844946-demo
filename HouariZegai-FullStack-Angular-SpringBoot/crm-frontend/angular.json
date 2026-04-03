@@ -18,7 +18,6 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
-            "aot": false,
             "assets": [
               "src/favicon.ico",
               "src/assets"
@@ -65,18 +64,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "crm-frontend:build"
+            "buildTarget": "crm-frontend:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "crm-frontend:build:production"
+              "buildTarget": "crm-frontend:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "crm-frontend:build"
+            "buildTarget": "crm-frontend:build"
           }
         },
         "test": {

@@ -25,3 +25,7 @@ frontend.log
 
 # macOS
 .DS_Store
+
+# Demo runtime files
+.demo-pids
+.angular/
