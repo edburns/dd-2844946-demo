@@ -6,7 +6,7 @@ describe('HardcodedAuthenticationService', () => {
   beforeEach(() => TestBed.configureTestingModule({}));
 
   it('should be created', () => {
-    const service: HardcodedAuthenticationService = TestBed.get(HardcodedAuthenticationService);
+    const service: HardcodedAuthenticationService = TestBed.inject(HardcodedAuthenticationService);
     expect(service).toBeTruthy();
   });
 });
