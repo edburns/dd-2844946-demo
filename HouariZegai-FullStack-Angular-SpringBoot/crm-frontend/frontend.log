@@ -1,0 +1,16 @@
+Browserslist: caniuse-lite is outdated. Please run next command `npm update`
+(node:55210) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://localhost:4200/webpack-dev-server/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from /
+[34mℹ[39m [90m｢wds｣[39m: 404s will fallback to //index.html
+[34mℹ[39m [90m｢wdm｣[39m: wait until bundle finished: /
+
+chunk {main} main.js, main.js.map (main) 69.6 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 251 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.09 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 1.31 MB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 5.1 MB [initial] [rendered]
+Date: 2026-04-03T18:11:53.558Z - Hash: ec6f36f70109afd33680 - Time: 2473ms
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
