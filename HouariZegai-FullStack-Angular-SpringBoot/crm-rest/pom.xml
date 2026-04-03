@@ -16,6 +16,8 @@
 
 	<properties>
 		<java.version>1.8</java.version>
+		<spring-framework.version>5.3.39</spring-framework.version>
+		<h2.version>2.2.224</h2.version>
 	</properties>
 
 	<dependencies>

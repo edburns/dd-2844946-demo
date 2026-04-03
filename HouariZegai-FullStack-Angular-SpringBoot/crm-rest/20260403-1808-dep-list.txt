@@ -1,0 +1,66 @@
+[INFO] Scanning for projects...
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.7.1/maven-site-plugin-3.7.1.pom
+Progress (1): 1.0 kBProgress (1): 2.9 kBProgress (1): 5.6 kBProgress (1): 8.6 kBProgress (1): 12 kB Progress (1): 18 kBProgress (1): 19 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.7.1/maven-site-plugin-3.7.1.pom (19 kB at 32 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/johnzon/johnzon-maven-plugin/1.1.13/johnzon-maven-plugin-1.1.13.pom
+Progress (1): 807 BProgress (1): 2.4 kBProgress (1): 3.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/johnzon/johnzon-maven-plugin/1.1.13/johnzon-maven-plugin-1.1.13.pom (3.6 kB at 100 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/johnzon/johnzon/1.1.13/johnzon-1.1.13.pom
+Progress (1): 787 BProgress (1): 1.7 kBProgress (1): 3.3 kBProgress (1): 5.6 kBProgress (1): 7.7 kBProgress (1): 10 kB Progress (1): 14 kBProgress (1): 15 kBProgress (1): 20 kBProgress (1): 23 kBProgress (1): 25 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/johnzon/johnzon/1.1.13/johnzon-1.1.13.pom (25 kB at 746 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/johnzon/johnzon-maven-plugin/1.1.13/johnzon-maven-plugin-1.1.13.jar
+Progress (1): 0.9/26 kBProgress (1): 2.3/26 kBProgress (1): 3.6/26 kBProgress (1): 4.1/26 kBProgress (1): 5.5/26 kBProgress (1): 6.8/26 kBProgress (1): 8.2/26 kBProgress (1): 9.6/26 kBProgress (1): 11/26 kB Progress (1): 12/26 kBProgress (1): 14/26 kBProgress (1): 15/26 kBProgress (1): 16/26 kBProgress (1): 18/26 kBProgress (1): 19/26 kBProgress (1): 21/26 kBProgress (1): 22/26 kBProgress (1): 23/26 kBProgress (1): 25/26 kBProgress (1): 26 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/johnzon/johnzon-maven-plugin/1.1.13/johnzon-maven-plugin-1.1.13.jar (26 kB at 787 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-maven-plugin/1.2.71/kotlin-maven-plugin-1.2.71.pom
+Progress (1): 2.1 kBProgress (1): 4.5 kBProgress (1): 6.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-maven-plugin/1.2.71/kotlin-maven-plugin-1.2.71.pom (6.1 kB at 190 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-project/1.2.71/kotlin-project-1.2.71.pom
+Progress (1): 977 BProgress (1): 2.4 kBProgress (1): 5.6 kBProgress (1): 9.1 kBProgress (1): 10 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-project/1.2.71/kotlin-project-1.2.71.pom (10 kB at 313 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-maven-plugin/1.2.71/kotlin-maven-plugin-1.2.71.jar
+Progress (1): 0.9/79 kBProgress (1): 2.3/79 kBProgress (1): 3.6/79 kBProgress (1): 7.9/79 kBProgress (1): 12/79 kB Progress (1): 16/79 kBProgress (1): 21/79 kBProgress (1): 24/79 kBProgress (1): 28/79 kBProgress (1): 33/79 kBProgress (1): 37/79 kBProgress (1): 41/79 kBProgress (1): 45/79 kBProgress (1): 49/79 kBProgress (1): 54/79 kBProgress (1): 58/79 kBProgress (1): 62/79 kBProgress (1): 66/79 kBProgress (1): 71/79 kBProgress (1): 75/79 kBProgress (1): 79 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-maven-plugin/1.2.71/kotlin-maven-plugin-1.2.71.jar (79 kB at 2.4 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-codegen-maven/3.11.11/jooq-codegen-maven-3.11.11.pom
+Progress (1): 1.3 kBProgress (1): 3.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-codegen-maven/3.11.11/jooq-codegen-maven-3.11.11.pom (3.5 kB at 107 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-parent/3.11.11/jooq-parent-3.11.11.pom
+Progress (1): 994 BProgress (1): 3.8 kBProgress (1): 6.7 kBProgress (1): 11 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-parent/3.11.11/jooq-parent-3.11.11.pom (11 kB at 331 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-codegen-maven/3.11.11/jooq-codegen-maven-3.11.11.jar
+Progress (1): 3.8/16 kBProgress (1): 8.0/16 kBProgress (1): 12/16 kB Progress (1): 16/16 kBProgress (1): 16 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-codegen-maven/3.11.11/jooq-codegen-maven-3.11.11.jar (16 kB at 558 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/3.1.1/maven-dependency-plugin-3.1.1.pom
+Progress (1): 748 BProgress (1): 2.1 kBProgress (1): 5.3 kBProgress (1): 9.8 kBProgress (1): 12 kB Progress (1): 15 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/3.1.1/maven-dependency-plugin-3.1.1.pom (15 kB at 474 kB/s)
+[INFO] 
+[INFO] ----------------------< com.houarizegai:crm-rest >----------------------
+[INFO] Building crm-rest 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- dependency:3.1.1:list (default-cli) @ crm-rest ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-impl/2.3/maven-reporting-impl-2.3.pom
+Progress (1): 796 BProgress (1): 2.3 kBProgress (1): 5.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-impl/2.3/maven-reporting-impl-2.3.pom (5.0 kB at 161 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.2/doxia-decoration-model-1.2.pom
+Progress (1): 818 BProgress (1): 2.4 kBProgress (1): 3.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.2/doxia-decoration-model-1.2.pom (3.1 kB at 105 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.2/doxia-module-xhtml-1.2.pom
+Progress (1): 828 BProgress (1): 1.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.2/doxia-module-xhtml-1.2.pom (1.8 kB at 63 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-modules/1.2/doxia-modules-1.2.pom
+Progress (1): 819 BProgress (1): 2.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-modules/1.2/doxia-modules-1.2.pom (2.5 kB at 86 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.2/doxia-module-fml-1.2.pom
+Progress (1): 776 BProgress (1): 2.4 kBProgress (1): 4.9 kBProgress (1): 5.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.2/doxia-module-fml-1.2.pom (5.6 kB at 165 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.10/maven-dependency-analyzer-1.10.pom
+Progress (1): 797 BProgress (1): 2.2 kBProgress (1): 5.3 kBProgress (1): 6.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.10/maven-dependency-analyzer-1.10.pom (6.7 kB at 224 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/6.1.1/asm-6.1.1.pom
+Progress (1): 1.2 kBProgress (1): 2.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/6.1.1/asm-6.1.1.pom (2.9 kB at 101 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-impl/2.3/maven-reporting-impl-2.3.jar
+Progress (1): 7.7/18 kBProgress (1): 16/18 kB Progress (1): 18 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-impl/2.3/maven-reporting-impl-2.3.jar (18 kB at 666 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.10/maven-dependency-analyzer-1.10.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/6.1.1/asm-6.1.1.jar
+Progress (1): 7.7/108 kBProgress (1): 16/108 kB Progress (1): 25/108 kBProgress (1): 41/108 kBProgress (1): 57/108 kBProgress (1): 74/108 kBProgress (1): 90/108 kBProgress (1): 98/108 kBProgress (1): 108 kB                       Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/6.1.1/asm-6.1.1.jar (108 kB at 3.2 MB/s)
+Progress (1): 0.9/35 kBProgress (1): 2.3/35 kBProgress (1): 3.6/35 kBProgress (1): 5.0/35 kBProgress (1): 6.4/35 kBProgress (1): 7.7/35 kBProgress (1): 9.1/35 kBProgress (1): 10/35 kB Progress (1): 12/35 kBProgress (1): 13/35 kBProgress (1): 15/35 kBProgress (1): 16/35 kBProgress (1): 17/35 kBProgress (1): 19/35 kBProgress (1): 20/35 kBProgress (1): 21/35 kBProgress (1): 23/35 kBProgress (1): 24/35 kBProgress (1): 26/35 kBProgress (1): 27/35 kBProgress (1): 28/35 kBProgress (1): 30/35 kBProgress (1): 31/35 kBProgress (1): 32/35 kBProgress (1): 34/35 kBProgress (1): 35/35 kBProgress (1): 35 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.10/maven-dependency-analyzer-1.10.jar (35 kB at 397 kB/s)
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.springframework.boot:spring-boot-devtools:jar:2.1.7.RELEASE:runtime (optional)  -- module spring.boot.devtools [auto]
+[INFO]    org.springframework.boot:spring-boot-starter-web:jar:2.1.7.RELEASE:compile -- module spring.boot.starter.web [auto]
+[INFO]    org.springframework.boot:spring-boot-starter-security:jar:2.1.7.RELEASE:compile -- module spring.boot.starter.security [auto]
+[INFO]    io.jsonwebtoken:jjwt:jar:0.9.1:compile -- module jjwt (auto)
+[INFO]    org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE:test -- module spring.boot.starter.test [auto]
+[INFO]    org.springframework.boot:spring-boot-starter-data-jpa:jar:2.1.7.RELEASE:compile -- module spring.boot.starter.data.jpa [auto]
+[INFO]    com.h2database:h2:jar:1.4.199:runtime -- module com.h2database [auto]
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.162 s
+[INFO] Finished at: 2026-04-03T18:08:22-04:00
+[INFO] ------------------------------------------------------------------------
