@@ -15,6 +15,7 @@ export class Customer {
 }
 
 @Component({
+  standalone: false,
   selector: 'app-customers',
   templateUrl: './customers.component.html',
   styleUrls: ['./customers.component.css']

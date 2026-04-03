@@ -4,6 +4,7 @@ import { CustomerDataService } from '../service/data/customer-data.service';
 import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
+  standalone: false,
   selector: 'app-customer-form',
   templateUrl: './customer-form.component.html',
   styleUrls: ['./customer-form.component.css']

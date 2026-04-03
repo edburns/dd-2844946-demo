@@ -4,6 +4,7 @@ import { WelcomeDataService } from '../service/data/welcome-data.service';
 
 // decorator (annotation in java)
 @Component({
+  standalone: false,
   selector: 'app-welcome',
   templateUrl: './welcome.component.html',
   styleUrls: ['./welcome.component.css']

@@ -16,7 +16,7 @@ import { CustomerFormComponent } from './customer-form/customer-form.component';
 
 // import some UI module
 import { AlertModule } from 'ngx-bootstrap/alert';
-import { AngularFontAwesomeModule } from 'angular-font-awesome';
+// angular-font-awesome removed (not compatible with Angular Ivy/19+)
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'; 
 import { ToastrModule } from 'ngx-toastr';
 import { HttpIntercepterBasicAuthService } from './service/http/http-intercepter-basic-auth.service';
@@ -41,7 +41,6 @@ import { HttpIntercepterBasicAuthService } from './service/http/http-intercepter
     FormsModule,
     HttpClientModule,
     AlertModule.forRoot(), // Alert from ngx bootstrap module added
-    AngularFontAwesomeModule, // Font awesome module added
     BrowserAnimationsModule, // required animations module added
     ToastrModule.forRoot() // ToastrModule module added  
   ],

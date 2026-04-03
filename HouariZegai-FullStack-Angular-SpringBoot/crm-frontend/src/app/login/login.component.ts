@@ -7,6 +7,7 @@ import { from } from 'rxjs';
 import { BasicAuthenticationService } from '../service/basic-authentication.service';
 
 @Component({
+  standalone: false,
   selector: 'app-login',
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.css'],

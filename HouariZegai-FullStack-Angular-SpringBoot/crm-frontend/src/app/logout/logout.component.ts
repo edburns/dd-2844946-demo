@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { HardcodedAuthenticationService } from '../service/hardcoded-authentication.service';
 
 @Component({
+  standalone: false,
   selector: 'app-logout',
   templateUrl: './logout.component.html',
   styleUrls: ['./logout.component.css']
