@@ -6,7 +6,7 @@ describe('HttpIntercepterBasicAuthService', () => {
   beforeEach(() => TestBed.configureTestingModule({}));
 
   it('should be created', () => {
-    const service: HttpIntercepterBasicAuthService = TestBed.get(HttpIntercepterBasicAuthService);
+    const service: HttpIntercepterBasicAuthService = TestBed.inject(HttpIntercepterBasicAuthService);
     expect(service).toBeTruthy();
   });
 });

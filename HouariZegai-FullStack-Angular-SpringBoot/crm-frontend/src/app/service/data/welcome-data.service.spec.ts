@@ -6,7 +6,7 @@ describe('WelcomeDataService', () => {
   beforeEach(() => TestBed.configureTestingModule({}));
 
   it('should be created', () => {
-    const service: WelcomeDataService = TestBed.get(WelcomeDataService);
+    const service: WelcomeDataService = TestBed.inject(WelcomeDataService);
     expect(service).toBeTruthy();
   });
 });
