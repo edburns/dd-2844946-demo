@@ -1,0 +1,24 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.houarizegai:crm-rest >----------------------
+[INFO] Building crm-rest 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- dependency:3.1.1:list (default-cli) @ crm-rest ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.springframework.boot:spring-boot-devtools:jar:2.1.7.RELEASE:runtime (optional)  -- module spring.boot.devtools [auto]
+[INFO]    org.springframework.boot:spring-boot-starter-web:jar:2.1.7.RELEASE:compile -- module spring.boot.starter.web [auto]
+[INFO]    org.springframework.boot:spring-boot-starter-security:jar:2.1.7.RELEASE:compile -- module spring.boot.starter.security [auto]
+[INFO]    io.jsonwebtoken:jjwt:jar:0.9.1:compile -- module jjwt (auto)
+[INFO]    org.springframework.boot:spring-boot-starter-test:jar:2.1.7.RELEASE:test -- module spring.boot.starter.test [auto]
+[INFO]    org.springframework.boot:spring-boot-starter-data-jpa:jar:2.1.7.RELEASE:compile -- module spring.boot.starter.data.jpa [auto]
+[INFO]    com.h2database:h2:jar:2.2.224:runtime -- module com.h2database [auto]
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.373 s
+[INFO] Finished at: 2026-04-03T18:14:02-04:00
+[INFO] ------------------------------------------------------------------------
