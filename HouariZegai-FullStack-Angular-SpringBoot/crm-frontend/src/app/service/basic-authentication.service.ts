@@ -30,7 +30,7 @@ export class BasicAuthenticationService {
       );
   }
   
-  executeAuthenticationService(username, password) {
+  executeAuthenticationService(username: any, password: any) {
     let basicAuthHeaderString = 'Basic ' + window.btoa(username + ':' + password);
 
     let headers = new HttpHeaders({

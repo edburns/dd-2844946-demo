@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-import { Customer } from 'src/app/customers/customers.component';
-import { API_URL } from 'src/app/app.constants';
+import { Customer } from '../../customers/customers.component';
+import { API_URL } from '../../app.constants';
 import { BasicAuthenticationService } from '../basic-authentication.service';
 
 @Injectable({

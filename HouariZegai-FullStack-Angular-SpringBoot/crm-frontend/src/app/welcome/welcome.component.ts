@@ -12,7 +12,7 @@ import { WelcomeDataService } from '../service/data/welcome-data.service';
 export class WelcomeComponent implements OnInit {
 
   message = 'Welcome message'
-  welcomeMessageFromService: string
+  welcomeMessageFromService!: string
   name = ''
 
   // adding Activate route for get parameter from the url
@@ -38,12 +38,12 @@ export class WelcomeComponent implements OnInit {
     );
   }
 
-  handleSuccessfulResponse(response) {
+  handleSuccessfulResponse(response: any) {
     // console.log(response.message);
     this.welcomeMessageFromService = response.message;
   }
 
-  handleErrorResponse(error) {
+  handleErrorResponse(error: any) {
     // console.log(error.error.message);
     // console.log(error);
     this.welcomeMessageFromService = error.error.message;

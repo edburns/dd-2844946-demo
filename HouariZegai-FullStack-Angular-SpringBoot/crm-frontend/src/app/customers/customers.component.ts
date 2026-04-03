@@ -21,8 +21,8 @@ export class Customer {
 })
 export class CustomersComponent implements OnInit {
   
-  customers: Customer[]
-  message: string
+  customers!: Customer[]
+  message!: string
 
 
   constructor(private service: CustomerDataService,
@@ -47,12 +47,12 @@ export class CustomersComponent implements OnInit {
     this.router.navigate(['customers', -1]);
   }
 
-  updateCustomer(id) {
+  updateCustomer(id: any) {
     // console.log(`Update Customer ${id}`);
     this.router.navigate(['customers', id]);
   }
 
-  deleteCustomer(id) {
+  deleteCustomer(id: any) {
       // console.log(`Delete customer ${id}`);
       this.service.deleteCustomer("houarizegai", id).subscribe(
         response => {

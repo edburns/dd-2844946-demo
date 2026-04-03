@@ -10,15 +10,15 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class CustomerFormComponent implements OnInit {
 
-  customer: Customer
-  id: number
+  customer!: Customer
+  id!: number
 
   constructor(private service: CustomerDataService, private route: ActivatedRoute, private router: Router) { }
 
   ngOnInit() {
     this.id = this.route.snapshot.params['id'];
 
-    this.customer = new Customer(this.id, '', null, '');
+    this.customer = new Customer(this.id, '', new Date(), '');
     if(this.id != -1)
       this.service.retrieveCustomer("houarizegai", this.id).subscribe(
         response => this.customer = response

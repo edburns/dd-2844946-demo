@@ -5,7 +5,8 @@
     "types": [
       "jasmine",
       "node"
-    ]
+    ],
+    "rootDir": "./src"
   },
   "files": [
     "src/test.ts",
