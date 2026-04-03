@@ -12,29 +12,22 @@ PID_FILE="$SCRIPT_DIR/.mehmet-pids"
 if [ -f "$PID_FILE" ]; then
   # shellcheck source=/dev/null
   source "$PID_FILE"
-
-  if [ -n "${FRONTEND_PID:-}" ] && kill -0 "$FRONTEND_PID" 2>/dev/null; then
-    echo "==> Stopping frontend (PID $FRONTEND_PID)..."
-    kill "$FRONTEND_PID" 2>/dev/null || true
-  else
-    echo "==> Frontend not running via PID file; killing :3004 if found..."
-    kill "$(lsof -ti:3004)" 2>/dev/null || true
-  fi
-
-  if [ -n "${BACKEND_PID:-}" ] && kill -0 "$BACKEND_PID" 2>/dev/null; then
-    echo "==> Stopping backend (PID $BACKEND_PID)..."
-    kill "$BACKEND_PID" 2>/dev/null || true
-  else
-    echo "==> Backend not running via PID file; killing :8085 if found..."
-    kill "$(lsof -ti:8085)" 2>/dev/null || true
-  fi
-
+  [ -n "${FRONTEND_PID:-}" ] && kill "$FRONTEND_PID" 2>/dev/null || true
+  [ -n "${BACKEND_PID:-}"  ] && kill "$BACKEND_PID"  2>/dev/null || true
   rm -f "$PID_FILE"
-else
-  echo "==> No PID file found; killing by port..."
-  kill "$(lsof -ti:3004)" 2>/dev/null && echo "    Stopped frontend (:3004)" || echo "    No process on :3004"
-  kill "$(lsof -ti:8085)" 2>/dev/null && echo "    Stopped backend (:8085)"  || echo "    No process on :8085"
 fi
+
+# Always kill by port — npm start spawns child processes that outlive the
+# saved PID (e.g. webpack-dev-server continues after the npm parent dies).
+for PORT in 3004 8085; do
+  PIDS=$(lsof -ti:$PORT 2>/dev/null || true)
+  if [ -n "$PIDS" ]; then
+    echo "==> Killing processes on :$PORT (PIDs: $PIDS)..."
+    echo "$PIDS" | xargs kill 2>/dev/null || true
+  else
+    echo "==> Nothing running on :$PORT"
+  fi
+done
 
 # ── 2. MySQL ──────────────────────────────────────────────────────────────────
 
